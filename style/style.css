@@ -1,0 +1,236 @@
+body {
+
+
+
+    background-color: rgb(245, 218, 182);
+
+}
+
+html{
+        scroll-behavior: smooth;
+}
+
+section {
+    margin: 40px;
+    margin-bottom: 180px;
+    padding: 2px 2px;
+    border: 0px solid #ccc;
+    border-radius: 10px;
+    background-color: rgb(245, 218, 182)c6;
+    text-align: center;
+}
+
+.Box {
+display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1px;
+    border: 0px;
+    padding: 5%;
+    font-size: larger;
+    margin-top: -100px;
+    margin-bottom: -150px;
+}
+
+nav ul{
+    display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1px;
+        border: 0px;
+        padding: 5%;
+}
+
+.container {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.minicupcake{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+   text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Nunito;
+    font-size: 3em;
+    font-weight: bolder;
+    font-style: normal;
+    margin-top: 10px;
+    margin-bottom: auto;
+}
+
+p {
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Nunito;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.icon {
+    margin-top: 80px !important;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+a {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Nunito;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+h2 {
+    color: rgb(63, 34, 0);
+    font-family: Nunito;
+    font-weight: bolder;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+
+.home {
+    margin-top: 0px;
+    margin-bottom: -100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 50px;
+    padding: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffe0c6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.664);
+
+}
+
+.column img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container img {
+    width: 330px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0px;
+}
+
+#p2 {
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Nunito;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+
+h3 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Nunito;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 2em;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.rs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Myresearch {
+    display: flex;
+    width: 350px;
+    padding: 15px;
+    border: 2px solid #000000;
+    color: black;
+    background-color: #ffe0c6;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+
+}
+
+
+
+.bouton {
+    margin: auto;
+    margin-top: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.664);
+    padding: 10px;
+    border: 2px solid #000000;
+    color: #000000;
+    cursor: pointer;
+    background-color: rgb(209, 164, 113);
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+
+}
+
+.btn{
+display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+#new-buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#scrollToTopBtn{
+
+        position: fixed;
+        bottom: 30px;
+        right: 20px;
+        z-index: 99;
+        background-color:rgb(209, 164, 113);
+        color: rgb(0, 0, 0);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.664);
+        border: 2px solid black;
+        border-radius: 100%;
+        cursor: pointer;
+        padding: 5px;
+        align-items: center;
+         justify-content: center;
+}
+
+.iconImage{
+    width: 30px;
+    height: 30px;
+}
