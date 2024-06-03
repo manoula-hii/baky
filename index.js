@@ -9,6 +9,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+//hihiiii
 
 window.onscroll = function() {scrollFunction()};
 
